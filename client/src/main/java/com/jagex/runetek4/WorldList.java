@@ -1,9 +1,8 @@
 package com.jagex.runetek4;
 
+import com.jagex.runetek4.client.GameShell;
+import com.jagex.runetek4.client.client;
 import com.jagex.runetek4.core.io.Packet;
-import com.jagex.runetek4.game.shared.framework.gwc.World;
-import com.jagex.runetek4.game.shared.framework.gwc.WorldInfo;
-import com.jagex.runetek4.media.renderable.actor.Player;
 import com.jagex.runetek4.util.SignLink;
 import org.openrs2.deob.annotation.OriginalArg;
 import org.openrs2.deob.annotation.OriginalMember;

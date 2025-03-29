@@ -1,17 +1,18 @@
 package com.jagex.runetek4;
 
 import com.jagex.runetek4.cache.CacheArchive;
-import com.jagex.runetek4.cache.media.SeqType;
+import com.jagex.runetek4.config.types.seq.SeqType;
 import com.jagex.runetek4.cache.media.SoftwareSprite;
 import com.jagex.runetek4.cache.media.component.Component;
+import com.jagex.runetek4.client.GameShell;
+import com.jagex.runetek4.client.Preferences;
+import com.jagex.runetek4.client.client;
+import com.jagex.runetek4.config.types.cursor.CursorTypeList;
+import com.jagex.runetek4.config.types.seq.SeqTypeList;
 import com.jagex.runetek4.core.datastruct.HashTable;
 import com.jagex.runetek4.core.io.Packet;
-import com.jagex.runetek4.game.client.Inv;
-import com.jagex.runetek4.game.config.cursortype.CursorType;
-import com.jagex.runetek4.game.config.iftype.componentproperties.ServerActiveProperties;
-import com.jagex.runetek4.input.Keyboard;
+import com.jagex.runetek4.config.types.cursor.CursorType;
 import com.jagex.runetek4.js5.Js5;
-import com.jagex.runetek4.media.renderable.actor.Player;
 import com.jagex.runetek4.node.Node;
 import org.openrs2.deob.annotation.OriginalArg;
 import org.openrs2.deob.annotation.OriginalMember;
